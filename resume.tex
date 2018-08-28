@@ -1,0 +1,300 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Joseph Cortez}
+\newcommand{\CVWebpage}{http://www.josephcortez.me/}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={Joseph},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%
+%% DOC START %%
+%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%
+% TITLE %
+%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+%%\href{https://www.google.com/maps/place/17+Prime+Avenue,+Springfield,+Pennsylvania+10111,+USA}
+{3804 SW 21 Lane \#4, Gainesville, FL 32607}
+\par
+\href{mailto:joseph.cortez@ufl.edu}
+{joseph.cortez@ufl.edu}
+\,\SubBulletSymbol\,
+(954)\,540-2178\,
+%%\,\SubBulletSymbol\,
+%%\href{\CVWebpage}
+%%{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://www.example.com/my-university}
+{\textbf{University of Florida}},
+Gainesville, FL
+
+\Gap
+\BulletItem
+B.S. in
+\href{http://www.example.com/my-department}
+{Computer Engineering}
+\hfill
+\DatestampYMD{2018}{08}{22} --
+Present
+\begin{Detail}
+\SubBulletItem
+Graduation Expected: May 2020
+\SubBulletItem
+GPA: 
+\end{Detail}
+
+\BigGap
+\Entry
+\href{http://www.example.com/my-college}
+{\textbf{Broward College}},
+Davie, FL
+
+\Gap
+\BulletItem
+A.A in
+\href{http://www.example.com/my-department}
+{Computer Engineering}
+\hfill
+\DatestampYMD{2016}{08}{22} --
+\DatestampYMD{2017}{05}{09}
+\begin{Detail}
+\SubBulletItem
+Cumulative GPA: 3.82
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\Entry
+\textbf{President's List,}
+Broward College
+\hfill
+\DatestampY{2016} --
+\DatestampY{2018}
+\BulletItem
+Fall 2016, Spring 2018 through Summer 2018
+
+\begin{Detail}
+\SubBulletItem
+For attaining a semester GPA of 4.0.
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Campus Activities}
+{Campus Activities}
+{PDF:CampusActivities}
+
+\Entry
+\href{http://www.example.com/my-club}
+{\textbf{Diversity in Tech}},
+Broward College
+
+\Gap
+\BulletItem
+Vice Presidential Candidate
+\hfill
+\DatestampY{2016} --
+\DatestampY{2018}
+\begin{Detail}
+\SubBulletItem
+Tech club focused on diversifying the computer science and engineering field and providing\newline resources to those who want to get involved.
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% OTHER WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Work\newline
+Experience}
+{Other Work Experience}
+{PDF:OtherWorkExperience}
+
+\Entry
+\href{http://www.example.com/my-company}
+{\textbf{American Ceramic Company}},
+Doral, FL
+
+\Gap
+\BulletItem
+IT Administator
+\hfill
+\DatestampYM{2017}{12} --
+\DatestampYM{2018}{07}
+\begin{Detail}
+\SubBulletItem
+Managed the hardware and software of 5-10 office members.
+\SubBulletItem
+Troubleshooted mailing server and other software issues.
+\end{Detail}
+
+\Entry
+\href{http://www.example.com/my-company}
+{\textbf{Americorps Firewall Center}},
+Lauderhill, FL
+
+\Gap
+\BulletItem
+Student Mentor
+\hfill
+\DatestampYM{2016}{07} --
+\DatestampYM{2017}{01}
+\begin{Detail}
+\SubBulletItem
+Mentored middle and high school students in STEM subjects, primarily mathematics and computer science.
+\SubBulletItem
+Worked with other college students to develop fun tasks for kids to enjoy learning after school.
+\end{Detail}
+
+\Entry
+\href{http://www.example.com/my-company}
+{\textbf{PrintVida}},
+Plantation, FL
+
+\Gap
+\BulletItem
+Intern Graphic Designer and Web Developer
+\hfill
+\DatestampYM{2016}{12} --
+\DatestampYM{2017}{06}
+\begin{Detail}
+\SubBulletItem
+Developed and managed websites with a team for multiple clients.
+\SubBulletItem
+Designed and assisted in the sale of T-shirts for the Mercedes-Benz Corporate Run held in Miami, FL.
+\end{Detail}
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+\textbf{Languages} -
+Java, C++, JavaScript, HTML, CSS, {\LaTeX}
+\newline
+\textbf{Operating Systems} -
+Windows (Advanced), Mac OSX (Advanced), GNU/Linux (Basic)
+\newline
+\textbf{Mobile} -
+Android, iOS
+\newline
+\textbf{Version Control} - 
+Git
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+\Entry
+Networking,
+programming,
+graphic design.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\Section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Lee MacVicar}
+\newline
+ CEO
+\newline
+American Ceramic Company
+\newline
+9600 NW 25th Street, Miami, FL 33172
+\newline
+\href{mailto:lee@celima-usa.com}
+{lee@celima-usa.com}
+\,\SubBulletSymbol\,
+(786)\,439-3258
+
+\BigGap
+\BulletItem
+\textbf{Ricardo Marino}
+\newline
+Co-Founder, CEO
+\newline
+PrintVida
+\newline
+\href{mailto:rfmarino@gmail.com}
+{rfmarino@gmail.com}
+\,\SubBulletSymbol\,
+(954)\,303-7930
+
+\end{document}
